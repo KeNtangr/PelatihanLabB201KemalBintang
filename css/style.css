@@ -1,0 +1,21 @@
+p {
+  color: #d40000;
+  line-height: 1.6;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar a {
+    text-decoration: none;
+}
+
+body {
+    background-color: #95abc5;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
