@@ -1,0 +1,21 @@
+Soal 1
+1.
+karena penggunaan tag span sendiri itu (dari pemahaman saya sendiri) bukan untuk memanggil tag atau link
+ada kesalahan di penulisan atribut href, yang harusnya id nya itu "skills" tapi di pemanggilannya 
+
+2.
+karena pemanggilan id tersebut menyesuaikan dengan id yang diberi, maka ketika browser mencari tag tersebut, secara otomatis dia mencari element dengan id yang sesuai.
+
+Soal 2
+1.
+tag item-start berfungsi sebagai memulai sebuah item atau elemen dalam sebuah list, jadi mereka membuat list sampai dalam section itu saja
+
+2.
+fungsi shrink-0 itu agar gambar itu tidak menghilang ketika container areanya lebih kecil sehingga menghilang. resiko ketika class itu dihapus maka gambarnya akan menghilang ketika containernya semakin kecil
+
+Soal 3
+1.
+perbedaan layar handphone dengan yang lain, kan karena handphone memiliki ukuran layar yang lebih kecil, ketika class nya melebih breakpoint itu maka class tersebut akan hilang dan diganti dengan class yang lain yang sesuai dengan ukuran layar handphone, sehingga tampilan webnya akan menyesuaikan dengan ukuran layar handphone
+
+2.
+scroll nya akan menjadi lebih mulus ketika di scroll ke bawah atau atas
