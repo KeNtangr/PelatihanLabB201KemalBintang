@@ -11,7 +11,7 @@
 
     </head>
 
-    <body class = "bg-[#f2c7b8] text-black font-sans min-h-screen font-">
+    <body class = "bg-[#f2c7b8] text-black min-h-screen font-">
 
         <header class = "bg-white text-black py-5" border-b> <!-- navbar -->
 
@@ -37,7 +37,7 @@
             
             <section id="home" class = "px-14 gap-20 flex items-start"> <!-- home yg ada gambar profile-->
                 
-                <img src="Asset/me.jpg" alt="something.jpg" class = "w-36 h-36 sm:w-44 sm:h-44 rounded-full object-cover shrink-0">
+                <img src="Asset/me.jpg" alt="something.jpg" class = "w-36 h-36 sm:w-44 sm:h-44 rounded-full border-4 border-black object-cover shrink-0">
 
                 <div class = "flex flex-col gap-2">
 
@@ -53,8 +53,17 @@
 
             <section id="about" class = "space-y-4">
 
-                <h2 class = "text-4xl font-extrabold"> About Me </h2>
-                <p class = "font-semibold px-6 text-justify"> My name is Kemal Bintang, im an ITS Computer Engineering Student, and i'm on my second year. I am passionate about Game Development and Games in general. apart from games, i also enjoy video editing and graphic design. </p>
+                <div class="flex flex-row gap-8">
+                    <span>
+                        <h2 class = "text-4xl font-extrabold"> About Me </h2>
+                        <p class = "font-semibold px-6 text-justify"> My name is Kemal Bintang, im an ITS Computer Engineering Student, and i'm on my second year. </p>
+                        <p class = "font-semibold px-6 text-justify">I am passionate about Game Development and Games in general. apart from games, i also enjoy video editing and graphic design. </p>
+                    </span>
+                    <span class = "p-4 bg-red-400 rounded-lg shadow-lg">
+                        <img src="Asset/myself.jpeg" alt="myself.jpeg" class = "w-100 h-70 shadow-lg rounded-lg">    
+                    </span>
+                </div>
+                
 
             </section>
 
@@ -150,6 +159,7 @@
                 <a href = "https://github.com/KeNtangr" class = "hover:text-blue-800"> GitHub </a>
                 <a href = "https://www.instagram.com/ke.ntangr/" class = "hover:text-blue-800"> Instagram </a>
                 <a href = "https://ely.by/skins?uploader=nobbdoynlol" class = "hover:text-blue-800"> Ely.by </a>
+                <a href = "https://wa.me/6281357305478" class = "hover:text-blue-800"> +62 813-5730-5478 </a>
 
             </span>
 
